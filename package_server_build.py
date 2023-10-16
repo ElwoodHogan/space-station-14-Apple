@@ -114,8 +114,7 @@ def main() -> None:
 
     args = parser.parse_args()
     platforms = args.platform
-    #skip_build = args.skip_build
-    skip_build = True
+    skip_build = args.skip_build
     hybrid_acz = args.hybrid_acz
 
     if not platforms:

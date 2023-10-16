@@ -12,7 +12,7 @@
       time: 21600 #6 hrs
     - !type:DepartmentTimeRequirement
       department: Engineering
-      time: 144000 # 40 hrs c
+      time: 144000 # 40 hrs
   startingGear: SeniorEngineerGear
   icon: "JobIconSeniorEngineer"
   supervisors: job-supervisors-ce
@@ -23,7 +23,7 @@
   - Atmospherics
 
 - type: startingGear
-  id: SeniorEngineerGear
+  id: SeniorEngineerGearNigga
   equipment:
     head: ClothingHeadHatBeretEngineering
     jumpsuit: ClothingUniformJumpsuitSeniorEngineer
